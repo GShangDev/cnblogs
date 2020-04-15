@@ -1,68 +1,264 @@
-# 博客园主题——Bili2.0
+## 标题
 
-![](https://img2018.cnblogs.com/blog/1489774/202001/1489774-20200104194952221-337450693.png)
+```markdown
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题超级超级超级超级超级超级超级超级长
+普通字体普通字体
+```
 
-> 之前制作的BiliBili的博客主题得到了很多园友的肯定，不过在代码上存在混乱，而我这个人有严重的洁癖，于是又重新整理了一遍，并且在整理过程中，产生了一些新的想法，于是就有了现在的这个版本，暂且叫`Bili2.0`吧~，一起跟我来看看这款主题有哪些特色。
-
-<br/>
-
-## 主题特色
-
-- 响应式布局（自适应<360px、<767px的不同尺寸屏幕）。
-- 首页全屏背景logo，个性定制。
-- 首页公告消息。
-- 首页轮播，支持定义不同数量的banner。
-- 页脚返回顶部按钮。
-- 博客正文为Github风格Markdown。
-- 博客底部支持博主微信二维码。
-- 博客评论板块调整为发表评论在上，评论列表在下，且评论顺序为倒序，便于查看。
-- 支持博客评论带头像。
-- 博客正文导航目录。
-- 支持切换夜间模式，且自动提醒切换夜间模式。
-- 支持导航栏扩展。
-- 支持设置博客Tab图标。
-- 支持博客代码块复制。
-- 博客正文功能微调：表格宽度自适应、链接新窗口打开。
-- 支持在博客内部运行脚本（该功能不稳定）。
-- 支持自定义Markdown语法（正在探索）
-- 更多功能细节，使用后进一步了解。
-
-<br/>
-
-## 主题截图
-
-![](https://img2018.cnblogs.com/blog/1489774/202001/1489774-20200104201843894-2124614285.jpg)
-
-![](https://img2018.cnblogs.com/blog/1489774/202001/1489774-20200104201937744-1373594898.jpg)
-
-![](https://img2018.cnblogs.com/blog/1489774/202001/1489774-20200104202044642-1942083227.jpg)
-
-![](https://img2018.cnblogs.com/blog/1489774/202001/1489774-20200104202136266-800834381.jpg)
-
-![](https://img2018.cnblogs.com/blog/1489774/202001/1489774-20200104202219529-580711724.jpg)
-
-![](https://img2018.cnblogs.com/blog/1489774/202001/1489774-20200104202347497-1721173474.jpg)
-
-![](https://img2018.cnblogs.com/blog/1489774/202001/1489774-20200104202451212-392183525.jpg)
-
-<br/>
-
-## 适配方法
-
-根据博客园后台控制的四个输入框，给出了对应的填充内容，按照提示操作即可。主题包括以下几个文件：
-
-- js备份.js（用来备份主题功能函数，建议将此文件重命名，存入博客园后台文件，并修改页脚代码，调用它）
-- 页面定制 CSS 代码.css
-- 博客侧边栏公告（支持HTML代码） （支持 JS 代码）.html
-- 页首 HTML 代码.html
-- 页脚 HTML 代码.html
-
-<br/>
-
-## 版本更新
-
-|  更新时间  |    更新内容     |                           下载链接                           |
-| :--------: | :-------------: | :----------------------------------------------------------: |
-| 2020.01.04 | 2.0版本正式上线 | [下载](https://gitee.com/j-x/home/attach_files/321829/download) |
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题超级超级超级超级超级超级超级超级长
+普通字体普通字体
 
 
+
+## 字体
+
+```markdown
+*斜体文本*
+**粗体文本**
+***粗斜体文本***
+```
+
+*斜体文本*
+**粗体文本**
+***粗斜体文本***
+
+
+
+
+## 分隔线
+
+```markdown
+***
+```
+
+***
+
+
+
+## 删除线
+
+```markdown
+~~BAIDU.COM~~
+```
+~~BAIDU.COM~~
+
+
+
+## 下划线
+
+```html
+<u>带下划线的文本</u>
+```
+<u>带下划线的文本</u>
+
+
+
+## 脚注
+
+```markdown
+创建脚注格式类似这样 [^RUNOOB]。
+
+[^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！
+```
+
+创建脚注格式类似这样 [^RUNOOB]。
+
+[^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！
+
+
+
+## 列表
+### 无序列表
+```markdown
+- 第一项
+* 第二项
++ 第三项
+```
+
+- 第一项
+* 第二项
++ 第三项
+
+```markdown
+- 第2篇
+	* 第2.1章
+		+ 第2.1.1节
+```
+
+- 第2篇
+	* 第2.1章
+		+ 第2.1.1节
+
+### 有序列表
+```markdown
+1. 第一项
+2. 第二项
+3. 第三项
+```
+
+1. 第一项
+2. 第二项
+3. 第三项
+
+```markdown
+1. 第一项：
+    - 第一项嵌套的第一个元素
+    - 第一项嵌套的第二个元素
+2. 第二项：
+    - 第二项嵌套的第一个元素
+    - 第二项嵌套的第二个元素
+```
+1. 第一项：
+    - 第一项嵌套的第一个元素
+    - 第一项嵌套的第二个元素
+2. 第二项：
+    - 第二项嵌套的第一个元素
+    - 第二项嵌套的第二个元素
+
+
+
+##  区块
+
+```markdown
+> 区块引用
+> 菜鸟教程
+> 学的不仅是技术更是梦想
+```
+> 区块引用
+> 菜鸟教程
+> 学的不仅是技术更是梦想
+
+
+
+##  代码
+
+```markdown
+`printf()` 函数
+```
+`printf()` 函数
+
+~~~markdown
+```javascript
+$(document).ready(function () {
+    alert('RUNOOB');
+});
+```
+~~~
+```javascript
+$(document).ready(function () {
+    alert('RUNOOB');
+});
+```
+
+
+
+## 链接
+
+```markdown
+这是一个链接 [菜鸟教程](https://www.runoob.com)
+```
+
+这是一个链接 [菜鸟教程](https://www.runoob.com)
+
+```markdown
+<https://www.runoob.com>
+```
+<https://www.runoob.com>
+
+```markdown
+链接也可以用变量来代替，文档末尾附带变量地址：
+这个链接用 1 作为网址变量 [Google][1]
+这个链接用 runoob 作为网址变量 [Runoob][runoob]
+然后在文档的结尾为变量赋值（网址）
+
+  [1]: http://www.google.com/
+  [runoob]: http://www.runoob.com/
+```
+链接也可以用变量来代替，文档末尾附带变量地址：
+这个链接用 1 作为网址变量 [Google][1]
+这个链接用 runoob 作为网址变量 [Runoob][runoob]
+然后在文档的结尾为变量赋值（网址）
+
+[1]: http://www.google.com/
+[runoob]: http://www.runoob.com/
+
+
+
+## 图片
+
+```markdown
+![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png)
+
+![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png "RUNOOB")
+```
+![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png)
+
+![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png "RUNOOB")
+
+```markdown
+这个链接用 1 作为网址变量 [RUNOOB][1].
+然后在文档的结尾位变量赋值（网址）
+
+[1]: http://static.runoob.com/images/runoob-logo.png
+```
+
+这个链接用 1 作为网址变量 [RUNOOB][1].
+然后在文档的结尾位变量赋值（网址）
+
+[1]: http://static.runoob.com/images/runoob-logo.png
+
+
+
+## 表格
+
+```markdown
+| 左对齐 | 右对齐 | 居中对齐 |
+| :-----| ----: | :----: |
+| 单元格 | 单元格 | 单元格 |
+| 单元格 | 单元格 | 单元格 |
+```
+| 左对齐 | 右对齐 | 居中对齐 |
+| :-----| ----: | :----: |
+| 单元格 | 单元格 | 单元格 |
+| 单元格 | 单元格 | 单元格 |
+
+
+
+## 高级技巧
+
+```markdown
+使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
+```
+
+使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
+
+
+
+## 公式
+
+```markdown
+$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
+\end{vmatrix}
+$$
+```
+$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
+\end{vmatrix}
+$$
